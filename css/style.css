@@ -1,63 +1,88 @@
-*{ margin: 0;}
-
-html{
-    scroll-behavior: smooth;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
-
-nav ul{
+*{ margin: 0;
+    padding: 0;
+  }
+  html{
     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  body main {
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    display: flex;
+  }
+  
+  body main section {
+    flex: none;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+  
+  nav ul{
+  
     position: fixed;
     list-style: none;
     display: flex;
-    gap: 7rem;
+    gap: 3%;
     align-items:center;
     bottom: 5%;
     width: 100%;
     justify-content: center;
- 
-}
-
-nav ul a{    
+  
+  }
+  
+  nav ul a{    
     text-decoration: none;
     color: white;
-}
-
-main section{  
-    display: flex;
-    gap: 1em;
-    align-items:center;
-    justify-content: center; 
-}
+  }
   
-#gabs{
-
-    height: 12em;
-    width: 12em;
-    border-radius: 100%;
-    padding: 10px 10px 25px 10px;
-   
-}
-
-section{
-    min-height: 100vh;
-}
-
-
-#home{
-    background-color: rgb(28, 28, 28);
-}
-
-#projetos{
-    background-color: rgb(38, 38, 38);
-}
-
-#ee{
-    background-color: rgb(48, 48, 48);
-}
-
-#fale{
-    background-color: rgb(58, 58, 58);
-}
-
+  #gabs{
+      background-color: slateblue;
+      display: flex;
+      gap: 1em;
+      align-items:center;
+      justify-content: center; 
+  }
+  
+  #img-gabs{
+      height: 12em;
+      width: 12em;
+      border-radius: 100%;
+      padding: 10px 10px 25px 10px;
+  }
+  
+  #projetos{
+    background-color:chocolate;
+      display: flex;
+      gap: 1em;
+      align-items:center;
+      justify-content: center; 
+  }
+  
+  #ee{
+    background-color:darkcyan;
+    display: flex;
+      gap: 1em;
+      align-items:center;
+      justify-content: center; 
+  }
+  
+  #fale{
+    background-color: deeppink;
+    display: flex;
+      gap: 1em;
+      align-items:center;
+      justify-content: center; 
+  }
+  
