@@ -1,0 +1,63 @@
+*{ margin: 0;}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+nav ul{
+    
+    position: fixed;
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+    align-items:center;
+    bottom: 5%;
+    width: 100%;
+    justify-content: center;
+ 
+}
+
+nav ul a{    
+    text-decoration: none;
+    color: white;
+}
+
+main section{  
+    display: flex;
+    gap: 1em;
+    align-items:center;
+    justify-content: center; 
+}
+  
+#gabs{
+
+    height: 12em;
+    width: 12em;
+    border-radius: 100%;
+    padding: 10px 10px 25px 10px;
+   
+}
+
+section{
+    min-height: 100vh;
+}
+
+
+#home{
+    background-color: rgb(28, 28, 28);
+}
+
+#projetos{
+    background-color: rgb(38, 38, 38);
+}
+
+#ee{
+    background-color: rgb(48, 48, 48);
+}
+
+#fale{
+    background-color: rgb(58, 58, 58);
+}
+
