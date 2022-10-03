@@ -54,6 +54,10 @@
       align-items:center;
       justify-content: center; 
   }
+
+  p{
+    display: inline;
+  }
   
   #img-gabs{
       height: 12em;
