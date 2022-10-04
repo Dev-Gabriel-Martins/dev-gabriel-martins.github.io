@@ -1,11 +1,26 @@
 *{ margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
+
   html{
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: white;
+  }
+ 
+  a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+  }
+
+  h4{
+    font-weight:lighter;
+  }
+  h3{
+    justify-items: center;
   }
   
   body {
@@ -47,40 +62,100 @@
     color: white;
   }
   
+  
   #gabs{
       background-color: slateblue;
+      flex-direction: column;
       display: flex;
-      gap: 1em;
+      justify-content:center; 
       align-items:center;
-      justify-content: center; 
+      gap: 1rem;
   }
 
-  p{
-    display: inline;
+   #gabsLeft {
+      display: inline;
+      justify-content:center; 
+      align-items:center;
+     
+       
   }
+  #gabsRight{
+     
+      max-width:390px ;
+      max-height: 200px; 
+      min-height: 200px;
+      min-width: 390px;            
+      
+  }
+
   
   #img-gabs{
       height: 12em;
       width: 12em;
       border-radius: 100%;
-      padding: 10px 10px 25px 10px;
+      
   }
   
   #projetos{
-    background-color:chocolate;
-      display: flex;
-      gap: 1em;
-      align-items:center;
-      justify-content: center; 
+    background-color: rgb(138, 5, 190);
+
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    gap: 5rem;
+
   }
-  
+
+
+  .Desbu  {
+    max-width:390px ;
+    max-height: 100px; 
+    min-height: 50px;
+    min-width: 390px;
+    justify-content: center;
+    
+  }
+  .GameBoy{
+    max-width:390px ;
+    max-height: 100px; 
+    min-height: 50px;;
+    min-width: 390px;
+    justify-content: center;
+  }
+  .BoaProva{
+    max-width:390px ;
+    max-height: 100px; 
+    min-height: 50px;
+    min-width: 390px;
+    justify-content: center;
+  }
+
   #ee{
     background-color:darkcyan;
+    bottom: 2rem;
+    flex-direction: column;
     display: flex;
-      gap: 1em;
-      align-items:center;
-      justify-content: center; 
+    align-items:center;
+    gap: 5rem;
   }
+
+  .xp{
+    max-width:390px ;
+    max-height: 100px; 
+    min-height: 50px;
+    min-width: 390px;
+    justify-content: center;
+  }
+  
+  .formacao{
+   
+    max-width:390px ;
+    max-height: 100px; 
+    min-height: 50px;
+    min-width: 390px;
+    justify-content: center;
+  }
+  
   
   #fale{
     background-color: deeppink;
@@ -88,5 +163,12 @@
       gap: 1em;
       align-items:center;
       justify-content: center; 
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 40
   }
   
