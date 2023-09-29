@@ -2,10 +2,10 @@
 Com HTML / CSS / JS 
 
 ### O que pretendo para futuro:
-Adicionar Rodapé 
-Adicionar Status
-Post interativos
-Comentario
-Painel adm para add posts automatizado
+Adicionar Rodapé </br>
+Adicionar Status </br>
+Post interativos </br>
+Comentario </br>
+Painel adm para add posts automatizado </br>
 
 
