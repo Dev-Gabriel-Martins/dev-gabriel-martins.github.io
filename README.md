@@ -1,3 +1,3 @@
-# Meu site pessoal inspitado no twitter usando  HTML / CSS / JS 
+# Meu site pessoal inspitado no Twitter usando  HTML / CSS / JS 
 
 
